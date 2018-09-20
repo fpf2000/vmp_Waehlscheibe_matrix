@@ -140,7 +140,7 @@ void setup()
  
            // Connect to MQTT Broker
            // setCallback sets the function to be called when a message is received.
-              client.setServer(mqtt_server,9765);
+              client.setServer(mqtt_server,1883);
               if (Connect()) {
               Serial.println("Connected Successfully to MQTT Broker!");  
               if (client.subscribe(mqtt_topic)){
