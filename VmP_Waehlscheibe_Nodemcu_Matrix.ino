@@ -221,8 +221,8 @@ void loop() {
           matrix.drawChar(2, 1, inttochar(0+count), HIGH, LOW, 1);  //drawChar(0, 0, 0+count, HIGH, LOW, 1)
           client.connect(clientID, mqtt_username, mqtt_password);
           delay(10); // This delay ensures that client.publish doesn't clash with the client.connect call
-          char b[2] = {'0'+count, '\0'};         // int to Char für MQTT
-          client.publish(mqtt_topic, b);   
+          char b[2] = {'0'+count, '\0'};   // int to Char für MQTT b = variable [2] = max 2 zeichen '\0' = entferne 0
+          client.publish(mqtt_topic, b);   // b = die beschriebene Variable      
         }
         matrix.write(); // Send bitmap to display
                     
