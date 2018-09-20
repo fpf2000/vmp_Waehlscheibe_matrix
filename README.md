@@ -8,3 +8,4 @@ Der Code zählt nun die Impulse an diesen Eingängen und gibt sie aus.
 Die Ausgabe erfolgt ist nun auf LED Matrix[ MAX7219ENG].
 Bei erfolgtem Internetzugang werden die Ziffern zusätzlich zu einem MQTT Broker gesendet.
 Hier könnte man nun weitere Prozesse triggern.
+Im WIKI auch ein BILD dazu !!
