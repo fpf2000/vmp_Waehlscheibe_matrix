@@ -9,3 +9,7 @@ Die Ausgabe erfolgt ist nun auf LED Matrix[ MAX7219ENG].
 Bei erfolgtem Internetzugang werden die Ziffern zusätzlich zu einem MQTT Broker gesendet.
 Hier könnte man nun weitere Prozesse triggern.
 Im WIKI auch ein BILD dazu !! https://github.com/fpf2000/vmp_Waehlscheibe_matrix/wiki
+# Benutzt wurde
+1 Arduino ESP8266 Nodemcu 
+1 8x8 LED MATRIX MAX7219ENG
+1 Eine Uralte Wählscheibe (finde die erst einmal :-) ) Es gehen natürlich auch Neuere !
